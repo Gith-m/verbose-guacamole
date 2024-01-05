@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Reflections - Home</title>
+    <link rel="stylesheet" href="../css/external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>CLEAR REFLECTIONS</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul> 
+        </nav>
+        <button class="harmburger">
+            <div class="bar"></div>
+        </button>
+    </header>
+    <nav class="mobile-nav">
+        <a href="index.html">HOME</a>
+        <a href="pages/about us.html">ABOUT US</a>
+        <a href="pages/shop.html">SHOP</a>
+        <a href="pages/Contact us.html">CONTACT</a>
+    </nav>
+     <br><br><br><br><br><br><br><br><br>
+    <div id="map"></div>
+
+    <!-- Include the Google Maps JavaScript API with your API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.337957961177!2d36.79376075541992!3d-1.2724192000000034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1bac136cf441%3A0x1891bf6528de50a9!2sEdulink%20International%20College!5e0!3m2!1sen!2ske!4v1695294551743!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <script>
+        // Initialize the map
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 37.7749, lng: -122.4194 }, // Latitude and Longitude of the map's center
+                zoom: 14, // Zoom level (adjust as needed)
+            };
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+     <!--contacts to reach us-->
+     <section id="contact">
+        <h2>CONTACT US</h2>
+        <p>If you have any questions or inquiries, please don't hesitate to contact us:</p>
+        
+    </section>
+    <br><br><br><br><br><br>
+
+    <!-- Footer -->
+<footer>
+        <div class="footer-content">
+            <h1>CONTACT US</h1>
+            <ul class="contact-info">
+                <li><i class="fab fa-whatsapp"></i>WhatsApp: <a href="tel:+25479090990098">+254 790 9099 00</a></li>
+                <li><i class="fab fa-facebook"></i>Facebook: <a href="#" target="_blank">Clear Reflections</a></li>
+                <li><i class="fab fa-instagram"></i>Instagram: <a href="#" target="_blank">Clear Reflections</a></li>
+                <li><i class="far fa-envelope"></i>Gmail: <a href="mailto:info@clearreflections.com">info@clearreflections.com</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2023 Clear Reflections. All rights reserved.</p>
+</footer>
+</body>
+</html>
