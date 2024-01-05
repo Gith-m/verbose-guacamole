@@ -1,0 +1,186 @@
+/* Style the header */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color: whitesmoke ;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    
+}
+body{
+  background-color: #4d4a4a;
+}
+header h1 {
+    font-style:"Times New Roman";
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 460px;
+    position: relative;
+    @media(max-width:767px) {
+      display: none;
+  
+      }
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 10px;
+}
+nav ul li a:hover{
+    border-radius: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li:hover a{
+    color: #964B00;
+}
+nav ul ul li{
+    color: white;
+    z-index: 99;
+    background-color: black;
+}
+
+/* Style the navigation links */
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+nav ul ul {
+    opacity: 0;
+    visibility: hidden;
+    position:absolute;
+    top: 90px;
+    transition: top .3s;
+    border-top: 3px solid #964B00;
+    color: white;
+}
+nav ul li:hover>ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    background-color: black;
+
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 300px;
+    float: none;
+    display:list-item ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+}
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav ul ul li a:hover{
+  color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer ul li a{
+  color: antiquewhite;
+}
+
+  
+  
+    .row{
+       margin:2%;
+       display:flex;
+       justify-content:space-between;
+    }
+    .course-col{
+       flex-basis: 31%;
+       background:rgb(243, 223, 188);
+       border-radius: 10px;
+       margin-bottom: 5%;
+       padding: 3px 2px;
+       box-sizing: border-box;
+       transition: 0.5s;
+    }
+   
+    .course-col:hover{
+       box-shadow: 0 0 20px 0px,rgba(0, 0, 0, 0.2);
+    }
+    @media(max-width:700px){
+       .row{
+           flex-direction: column;
+       }
+    }
+
+    .posi{
+      height: 240px;
+      width: 160px;
+      
+      display: inline-block;
+      background-color: rgb(143, 143, 225);
+      border-radius: 3px;
+      margin-top: 7px;
+      margin-left: 5px;
+  
+      
+  }
+  .posii{
+      margin-top: 2px;
+      margin-left: 2px;
+      margin-right: 2px;
+      border-radius: 4px;
+      position: relative;
+      width: 97%;
+      height: 140px;
+  }
+ 
+  .div2{
+    padding-left: 55px;
+  }
+  .div2 p{
+    color: white;
+    font-weight: 850;
+    font-size: 19px;
+  }
+  h2{
+    color: white;
+    font-weight: 580;
+    font-size: 30px
+  }
+  h1{
+    color: white;
+  }
