@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Reflections</title>
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <style>
+      .posi{
+                height: 450px;
+                width: 23%;
+                
+                display: inline-block;
+                background-color: #964;
+                border-radius: 3px;
+                margin-top: 7px;
+                margin-left: 5px;
+            @media (max-width: 700px) {
+              width: 5%;
+              height: 350px;
+            }   
+            }
+            .posii{
+                margin-top: 2px;
+                margin-left: 2px;
+                margin-right: 2px;
+                border-radius: 4px;
+                position: relative;
+                width: 100%;
+                height: 39vh;
+                padding: 20px;
+                
+            }
+
+  </style>
+<body>
+</head>
+    <!-- Header -->
+    <header>
+        
+        <nav>
+            <h1>CLEAR REFLECTIONS</h1>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="#">SHOP</a>
+                <ul>
+                    <li><a href="#living room">Living Room</a></li>
+                    <li><a href="#Bathroom">Bathroom</a></li>
+                    <li><a href="#Dressing">Dressing</a></li>
+                    <li><a href="#Bedroom">Bedroom</a></li>
+                    <li><a href="Wooden Framed">Wooden Framed</a></li>
+                    <li><a href="#Acrylic bordered">Acrylic bordered</a></li>
+                    <li><a href="#Metal Bordered">Metal bordered</a></li>
+                    <li><a href="Decorative mirrors">Decorative mirrors</a></li>
+                </ul>
+                </li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="Contact us.html">CONTACT</a></li>
+            </ul> 
+        </nav>
+        <button class="harmburger">
+          <div class="bar"></div>
+      </button>
+    </header>
+    <nav class="mobile-nav">
+      <a href="index.html">HOME</a>
+      <a href="pages/about us.html">ABOUT US</a>
+      <a href="pages/shop.html">SHOP</a>
+      <a href="pages/Contact us.html">CONTACT</a>
+  </nav>
+  <br><br><br><br><br><br><br><br><br><br>
+
+    <!-- Shop Section -->
+    <h2>What did the mirror say to the wall? I've got you covered. Here are some mirrors for you:</h2>
+    <br>
+      
+    <div class="div2">
+       <h1 id="Living Room">Living Room</h1>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror2.webp"><p>On reflection, vampires aren't that scary<br>ksh2300</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror6.webp"><p>Selfie anyone?<br>ksh2500</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror4.webp"><p>This is what we call a spitting image<br>ksh3000</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror28.webp"><p>Mirror Mirror on the wall<br>ksh2800</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror29.webp"><p>You can't see me!<br>ksh3500</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror30.webp"><p>Peek a boo!<br>ksh3300</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror31.webp"><p>Staring contest?<br>ksh3400</p></div>
+       <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror32.webp"><p>I see right through you<br>ksh2500</p></div>
+       <br><br>
+
+      <h1 id="Bathroom">Bathroom</h1>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror24.webp"><p>For a happy soul<br>ksh2900</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror37.webp"><p>Mirror clearer<br>ksh2100</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror26.webp"><p>Clean mirror, clean you<br>ksh2300</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror27.webp"><p>Use me!<br>ksh2000</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror33.webp"><p>Stare, I stare back<br>ksh3800</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror34.webp"><p>Mirror horror<br>ksh3100</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror35.webp"><p>You look awesome!<br>ksh3700</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror36.webp"><p>Happy Lads!<br>ksh3300</p></div>
+      <br><br>
+
+      <h1 id="Dressing">Dressing</h1>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror45.webp"><p>See the hidden!<br>ksh3600</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror37.webp"><p>Clean me, I clean you<br>ksh3100</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror38.webp"><p>Self analyze<br>ksh2000</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror39.webp"><p>Jokes on me or is it you?<br>ksh3050</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror44.webp"><p>Hold up<br>ksh3150</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror41.webp"><p>Bringror!<br>ksh3400</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror42.webp"><p>You look fabulous!<br>ksh3200</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror43.webp"><p>Light or Dark!<br>ksh3400</p></div>
+      <br><br>
+
+     <h1 id="Bedroom">Bedroom</h1>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror55.webp"><p>Take a glance.<br>ksh2500</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror46.webp"><p>Don't look away<br>ksh2100</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror47.webp"><p>Reflect on it not Reflection<br>ksh2500</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror48.webp"><p>Brightest me<br>ksh2300</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror49.webp"><p>Look here!<br>ksh3300</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror50.webp"><p>Brighter<br>ksh3150</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror51.webp"><p>All glowed up<br>ksh3200</p></div>
+      <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror52.webp"><p>Not a touchscreen<br>ksh3350</p></div>
+      <br><br>
+
+     <h1 id="Wooden framed">Wooden framed</h1>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror56.webp"><p>Anyone like Timber<br>ksh3100</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror57.webp"><p>I'm actually made of wood<br>ksh3900</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror58.webp"><p>You look like a peng<br>ksh3600</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror59.webp"><p>I can you clearer<br>ksh3300</p></div>
+     <br><br>
+
+     <h1 id="Acrylic Bordered">Acrylic Bordered</h1>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror61.webp"><p>I have a weird but cool shape<br>ksh2700</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror62.webp"><p>I'm in love with the shape of you!<br>ksh3100</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror63.webp"><p>Drawl a little less weirdo!<br>ksh2700</p></div>
+     <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror64.webp"><p>I see yaa!<br>ksh3100</p></div>
+     <br><br>
+
+    <h1 id="Metal Bordered">Metal Bordered</h1>
+    <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror65.webp"><p>You look like a million!<br>ksh3000</p></div>
+    <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror66.webp"><p>Twinzies<br>ksh3000</p></div>
+    <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror67.webp"><p>Metal but not music<br>ksh2300</p></div>
+    <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror68.webp"><p>It's a hard knock life<br>ksh2700</p></div>
+    <br><br>
+
+   <h1 id="Decorative">Decorative Mirrors</h1>
+   <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror69.webp"><p>Look, I'm creative<br>ksh3000</p></div>
+   <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror70.webp"><p>Lemme amplify your Beauty<br>ksh3500</p></div>
+   <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror71.webp"><p>Okay, beautiful!<br>ksh2100</p></div>
+   <div class="posi"><img class="posii" src="C:\Users\HP\Desktop\project\images\thumbnails\mirror72.webp"><p>There's an imposter among us<br>ksh3500</p></div>
+ </div> 
+        </section>
+
+<footer>
+          <div class="footer-content">
+              <h1>CONTACT US</h1>
+              <ul class="contact-info">
+                  <li><i class="fab fa-whatsapp"></i>WhatsApp: <a href="tel:+25479090990098">+254 790 9099 0098</a></li>
+                  <li><i class="fab fa-facebook"></i>Facebook: <a href="#" target="_blank">Clear Reflections</a></li>
+                  <li><i class="fab fa-instagram"></i>Instagram: <a href="#" target="_blank">Clear Reflections</a></li>
+                  <li><i class="far fa-envelope"></i>Gmail: <a href="mailto:info@clearreflections.com">info@clearreflections.com</a></li>
+              </ul>
+          </div>
+          <p>&copy; 2023 Clear Reflections. All rights reserved.</p>
+   </footer>
+
+
+ </body>
+ </html>
